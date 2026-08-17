@@ -1,8 +1,8 @@
 <?php
 $host = '127.0.0.1';
 $db   = 'sprint2_db';
-$user = 'root';
-$pass = ''; // Contraseña según configuración de tu entorno MariaDB
+$user = 'mariadb';
+$pass = 'mariadb'; // Contraseña según configuración de tu entorno MariaDB
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
